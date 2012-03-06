@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E06F4D95150671E200E84417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06F4D94150671E200E84417 /* UIKit.framework */; };
+		E06F4D97150671E200E84417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06F4D96150671E200E84417 /* Foundation.framework */; };
+		E06F4D99150671E200E84417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06F4D98150671E200E84417 /* CoreGraphics.framework */; };
+		E06F4D9F150671E200E84417 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E06F4D9D150671E200E84417 /* InfoPlist.strings */; };
+		E06F4DA1150671E200E84417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F4DA0150671E200E84417 /* main.m */; };
+		E06F4DA5150671E200E84417 /* ColorifierAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F4DA4150671E200E84417 /* ColorifierAppDelegate.m */; };
+		E06F4DA8150671E200E84417 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DA6150671E200E84417 /* MainStoryboard.storyboard */; };
+		E06F4DAB150671E200E84417 /* ColorifierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F4DAA150671E200E84417 /* ColorifierViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E06F4D90150671E200E84417 /* Colorifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06F4D94150671E200E84417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E06F4D96150671E200E84417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E06F4D98150671E200E84417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E06F4D9C150671E200E84417 /* Colorifier-Info.plist */ = {isa = PBXFileReference; path = "Colorifier-Info.plist"; sourceTree = "<group>"; };
+		E06F4D9E150671E200E84417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E06F4DA0150671E200E84417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E06F4DA2150671E200E84417 /* Colorifier-Prefix.pch */ = {isa = PBXFileReference; path = "Colorifier-Prefix.pch"; sourceTree = "<group>"; };
+		E06F4DA3150671E200E84417 /* ColorifierAppDelegate.h */ = {isa = PBXFileReference; path = ColorifierAppDelegate.h; sourceTree = "<group>"; };
+		E06F4DA4150671E200E84417 /* ColorifierAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorifierAppDelegate.m; sourceTree = "<group>"; };
+		E06F4DA7150671E200E84417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E06F4DA9150671E200E84417 /* ColorifierViewController.h */ = {isa = PBXFileReference; path = ColorifierViewController.h; sourceTree = "<group>"; };
+		E06F4DAA150671E200E84417 /* ColorifierViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorifierViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06F4D8D150671E200E84417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06F4D95150671E200E84417 /* UIKit.framework in Frameworks */,
+				E06F4D97150671E200E84417 /* Foundation.framework in Frameworks */,
+				E06F4D99150671E200E84417 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E06F4D85150671E200E84417 = {
+			isa = PBXGroup;
+			children = (
+				E06F4D9A150671E200E84417 /* Colorifier */,
+				E06F4D93150671E200E84417 /* Frameworks */,
+				E06F4D91150671E200E84417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06F4D91150671E200E84417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06F4D90150671E200E84417 /* Colorifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06F4D93150671E200E84417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E06F4D94150671E200E84417 /* UIKit.framework */,
+				E06F4D96150671E200E84417 /* Foundation.framework */,
+				E06F4D98150671E200E84417 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06F4D9A150671E200E84417 /* Colorifier */ = {
+			isa = PBXGroup;
+			children = (
+				E06F4DA3150671E200E84417 /* ColorifierAppDelegate.h */,
+				E06F4DA4150671E200E84417 /* ColorifierAppDelegate.m */,
+				E06F4DA6150671E200E84417 /* MainStoryboard.storyboard */,
+				E06F4DA9150671E200E84417 /* ColorifierViewController.h */,
+				E06F4DAA150671E200E84417 /* ColorifierViewController.m */,
+				E06F4D9B150671E200E84417 /* Supporting Files */,
+			);
+			path = Colorifier;
+			sourceTree = "<group>";
+		};
+		E06F4D9B150671E200E84417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06F4D9C150671E200E84417 /* Colorifier-Info.plist */,
+				E06F4D9D150671E200E84417 /* InfoPlist.strings */,
+				E06F4DA0150671E200E84417 /* main.m */,
+				E06F4DA2150671E200E84417 /* Colorifier-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06F4D8F150671E200E84417 /* Colorifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06F4DAE150671E200E84417 /* Build configuration list for PBXNativeTarget "Colorifier" */;
+			buildPhases = (
+				E06F4D8C150671E200E84417 /* Sources */,
+				E06F4D8D150671E200E84417 /* Frameworks */,
+				E06F4D8E150671E200E84417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colorifier;
+			productName = Colorifier;
+			productReference = E06F4D90150671E200E84417 /* Colorifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06F4D87150671E200E84417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E06F4D8A150671E200E84417 /* Build configuration list for PBXProject "Colorifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E06F4D85150671E200E84417;
+			productRefGroup = E06F4D91150671E200E84417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06F4D8F150671E200E84417 /* Colorifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06F4D8E150671E200E84417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06F4D9F150671E200E84417 /* InfoPlist.strings in Resources */,
+				E06F4DA8150671E200E84417 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06F4D8C150671E200E84417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06F4DA1150671E200E84417 /* main.m in Sources */,
+				E06F4DA5150671E200E84417 /* ColorifierAppDelegate.m in Sources */,
+				E06F4DAB150671E200E84417 /* ColorifierViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E06F4D9D150671E200E84417 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06F4D9E150671E200E84417 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E06F4DA6150671E200E84417 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06F4DA7150671E200E84417 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06F4DAC150671E200E84417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E06F4DAD150671E200E84417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06F4DAF150671E200E84417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Colorifier/Colorifier-Prefix.pch";
+				INFOPLIST_FILE = "Colorifier/Colorifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E06F4DB0150671E200E84417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Colorifier/Colorifier-Prefix.pch";
+				INFOPLIST_FILE = "Colorifier/Colorifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06F4D8A150671E200E84417 /* Build configuration list for PBXProject "Colorifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06F4DAC150671E200E84417 /* Debug */,
+				E06F4DAD150671E200E84417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06F4DAE150671E200E84417 /* Build configuration list for PBXNativeTarget "Colorifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06F4DAF150671E200E84417 /* Debug */,
+				E06F4DB0150671E200E84417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E06F4D87150671E200E84417 /* Project object */;
+}
