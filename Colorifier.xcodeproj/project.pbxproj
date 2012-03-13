@@ -15,6 +15,12 @@
 		E06F4DA5150671E200E84417 /* ColorifierAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F4DA4150671E200E84417 /* ColorifierAppDelegate.m */; };
 		E06F4DA8150671E200E84417 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DA6150671E200E84417 /* MainStoryboard.storyboard */; };
 		E06F4DAB150671E200E84417 /* ColorifierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F4DAA150671E200E84417 /* ColorifierViewController.m */; };
+		E06F4DB61506DCA700E84417 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DB51506DCA700E84417 /* icon.png */; };
+		E06F4DB81506DDCF00E84417 /* somewhat_bigger.png in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DB71506DDCF00E84417 /* somewhat_bigger.png */; };
+		E06F4DC21506F48D00E84417 /* cow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DBF1506F48D00E84417 /* cow.jpeg */; };
+		E06F4DC31506F48D00E84417 /* duck.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DC01506F48D00E84417 /* duck.jpeg */; };
+		E06F4DC41506F48D00E84417 /* pig.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DC11506F48D00E84417 /* pig.jpeg */; };
+		E06F4DC61507049000E84417 /* awright.png in Resources */ = {isa = PBXBuildFile; fileRef = E06F4DC51507049000E84417 /* awright.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,21 @@
 		E06F4D94150671E200E84417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E06F4D96150671E200E84417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E06F4D98150671E200E84417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E06F4D9C150671E200E84417 /* Colorifier-Info.plist */ = {isa = PBXFileReference; path = "Colorifier-Info.plist"; sourceTree = "<group>"; };
+		E06F4D9C150671E200E84417 /* Colorifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Colorifier-Info.plist"; sourceTree = "<group>"; };
 		E06F4D9E150671E200E84417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E06F4DA0150671E200E84417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E06F4DA2150671E200E84417 /* Colorifier-Prefix.pch */ = {isa = PBXFileReference; path = "Colorifier-Prefix.pch"; sourceTree = "<group>"; };
-		E06F4DA3150671E200E84417 /* ColorifierAppDelegate.h */ = {isa = PBXFileReference; path = ColorifierAppDelegate.h; sourceTree = "<group>"; };
+		E06F4DA2150671E200E84417 /* Colorifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Colorifier-Prefix.pch"; sourceTree = "<group>"; };
+		E06F4DA3150671E200E84417 /* ColorifierAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorifierAppDelegate.h; sourceTree = "<group>"; };
 		E06F4DA4150671E200E84417 /* ColorifierAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorifierAppDelegate.m; sourceTree = "<group>"; };
 		E06F4DA7150671E200E84417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E06F4DA9150671E200E84417 /* ColorifierViewController.h */ = {isa = PBXFileReference; path = ColorifierViewController.h; sourceTree = "<group>"; };
+		E06F4DA9150671E200E84417 /* ColorifierViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorifierViewController.h; sourceTree = "<group>"; };
 		E06F4DAA150671E200E84417 /* ColorifierViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorifierViewController.m; sourceTree = "<group>"; };
+		E06F4DB51506DCA700E84417 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E06F4DB71506DDCF00E84417 /* somewhat_bigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = somewhat_bigger.png; sourceTree = "<group>"; };
+		E06F4DBF1506F48D00E84417 /* cow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cow.jpeg; path = ../cow.jpeg; sourceTree = "<group>"; };
+		E06F4DC01506F48D00E84417 /* duck.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = duck.jpeg; path = ../duck.jpeg; sourceTree = "<group>"; };
+		E06F4DC11506F48D00E84417 /* pig.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pig.jpeg; path = ../pig.jpeg; sourceTree = "<group>"; };
+		E06F4DC51507049000E84417 /* awright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = awright.png; path = ../awright.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,9 @@
 		E06F4D85150671E200E84417 = {
 			isa = PBXGroup;
 			children = (
+				E06F4DBD1506F44C00E84417 /* Resources */,
+				E06F4DB71506DDCF00E84417 /* somewhat_bigger.png */,
+				E06F4DB51506DCA700E84417 /* icon.png */,
 				E06F4D9A150671E200E84417 /* Colorifier */,
 				E06F4D93150671E200E84417 /* Frameworks */,
 				E06F4D91150671E200E84417 /* Products */,
@@ -96,6 +111,17 @@
 				E06F4DA2150671E200E84417 /* Colorifier-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E06F4DBD1506F44C00E84417 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E06F4DC51507049000E84417 /* awright.png */,
+				E06F4DBF1506F48D00E84417 /* cow.jpeg */,
+				E06F4DC01506F48D00E84417 /* duck.jpeg */,
+				E06F4DC11506F48D00E84417 /* pig.jpeg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +176,12 @@
 			files = (
 				E06F4D9F150671E200E84417 /* InfoPlist.strings in Resources */,
 				E06F4DA8150671E200E84417 /* MainStoryboard.storyboard in Resources */,
+				E06F4DB61506DCA700E84417 /* icon.png in Resources */,
+				E06F4DB81506DDCF00E84417 /* somewhat_bigger.png in Resources */,
+				E06F4DC21506F48D00E84417 /* cow.jpeg in Resources */,
+				E06F4DC31506F48D00E84417 /* duck.jpeg in Resources */,
+				E06F4DC41506F48D00E84417 /* pig.jpeg in Resources */,
+				E06F4DC61507049000E84417 /* awright.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +306,7 @@
 				E06F4DB0150671E200E84417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
